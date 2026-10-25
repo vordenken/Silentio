@@ -2,5 +2,27 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Silentio Updates</title>
+        <item>
+            <title>Version 1.0.0</title>
+            <description><![CDATA[
+<h3>🎉 Initial Release</h3>
+<ul>
+<li>🔇 Mutes the built-in speakers when audio switches to them, for example after unplugging headphones or disconnecting AirPods</li>
+<li>😴 Mutes the built-in speakers when the Mac wakes from sleep</li>
+<li>⏸️ Pauses Spotify, Apple Music and VLC without starting players that are paused or closed</li>
+<li>🔊 Restores the previous speaker state when headphones are reconnected, without touching the headphone volume</li>
+<li>⏱️ Optional mute delay of up to 5 seconds</li>
+<li>🎛️ Enable or disable Silentio from the menu bar, with optional monitoring at startup</li>
+<li>👋 Short welcome on first launch with quick choices for launch at login and automatic update checks</li>
+<li>🚀 Optional launch at login</li>
+<li>🔄 Automatic updates via Sparkle, with optional automatic downloads and beta versions</li>
+<li>🔔 Gentle menu bar reminders when updates are found during background checks</li>
+<li>🔒 Sandboxed, with no telemetry and no audio recording</li>
+<li>💻 Native macOS menu bar app for Apple Silicon and Intel Macs, macOS 13 or later</li>
+</ul>
+]]></description>
+            <pubDate>Sun, 25 Oct 2026 19:12:45 +0000</pubDate>
+            <enclosure url="https://github.com/vordenken/Silentio/releases/download/v1.0.0/Silentio.dmg" sparkle:version="11" sparkle:shortVersionString="1.0.0" sparkle:edSignature="aEKJRILvG0L3CWeTNNhwfTDy1ku61b6zMV4QdjNv/wvgt+o7xYqp6TlDo1UtndqTCoDbZ8djHf6VGRulTtNzAg==" length="2980418" type="application/octet-stream"/>
+        </item>
     </channel>
 </rss>
