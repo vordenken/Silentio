@@ -1,0 +1,70 @@
+name: 🐛 Bug Report
+description: Report a problem with Silentio
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to report a bug! Please remove personal data such as usernames or private paths.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened, and what did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. Play music in Spotify through AirPods
+        2. Disconnect the AirPods
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS Version
+      placeholder: e.g. macOS 15.5
+    validations:
+      required: true
+  - type: dropdown
+    id: architecture
+    attributes:
+      label: Mac Architecture
+      options:
+        - Apple Silicon
+        - Intel
+    validations:
+      required: true
+  - type: input
+    id: output-device
+    attributes:
+      label: Audio Devices
+      description: Which outputs were involved (e.g. built-in speakers, AirPods, USB DAC, HDMI display, headphone jack)?
+    validations:
+      required: true
+  - type: dropdown
+    id: player
+    attributes:
+      label: Player
+      options:
+        - Spotify
+        - Apple Music
+        - VLC
+        - Other / not applicable
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: Silentio Version
+      placeholder: e.g. 1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Screenshots, logs or anything else that helps.

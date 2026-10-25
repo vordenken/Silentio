@@ -1,0 +1,16 @@
+1.0.0
+---
+### 🎉 Initial Release
+
+- 🔇 Mutes the built-in speakers when audio switches to them, for example after unplugging headphones or disconnecting AirPods
+- 😴 Mutes the built-in speakers when the Mac wakes from sleep
+- ⏸️ Pauses Spotify, Apple Music and VLC without starting players that are paused or closed
+- 🔊 Restores the previous speaker state when headphones are reconnected, without touching the headphone volume
+- ⏱️ Optional mute delay of up to 5 seconds
+- 🎛️ Enable or disable Silentio from the menu bar, with optional monitoring at startup
+- 👋 Short welcome on first launch with quick choices for launch at login and automatic update checks
+- 🚀 Optional launch at login
+- 🔄 Automatic updates via Sparkle, with optional automatic downloads and beta versions
+- 🔔 Gentle menu bar reminders when updates are found during background checks
+- 🔒 Sandboxed, with no telemetry and no audio recording
+- 💻 Native macOS menu bar app for Apple Silicon and Intel Macs, macOS 13 or later
